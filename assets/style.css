@@ -1,0 +1,67 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#card {
+  width: 30%;
+  margin: 0 auto;
+  height: 300px;
+  margin-top: 100px;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to top left,
+    rgb(240, 5, 5),
+    rgb(233, 9, 18),
+    rgb(226, 12, 31),
+    rgb(219, 16, 44),
+    rgb(212, 20, 57),
+    rgb(205, 23, 70),
+    rgb(198, 27, 82),
+    rgb(191, 30, 95),
+    rgb(184, 34, 108),
+    rgb(177, 38, 121),
+    rgb(170, 41, 134),
+    rgb(163, 45, 147)
+  );
+
+  border-radius: 3%;
+}
+
+.info {
+  padding: 60px;
+}
+
+.info * {
+  color: white;
+}
+
+* + * {
+  padding-bottom: 60px;
+}
+
+.info p {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right: -150px;
+  top: 0;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+
+.circle2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  bottom: -150px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.466);
+}
